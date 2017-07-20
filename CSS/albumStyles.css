@@ -17,3 +17,29 @@ li{
     width: 100%;
 
 }
+a:link{
+
+     text-decoration: none;
+}
+a:visited{
+
+    text-decoration: none;
+}
+a:hover{
+    color: darkred;
+    background-color: yellow;
+    text-decoration: underline;
+}
+a:active{
+
+    text-decoration: none;
+}
+
+table{
+    background-color: tan;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td{
+    font-style: italic;
+}
