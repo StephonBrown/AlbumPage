@@ -2,21 +2,25 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 
 h1,h4{
-    color: darkred;
+    color: darkred!important;
     
 }
 li{
     font-style: italic;
 }
 #albumDiv {
-
     background-image: url("/Users/sbrown6/Desktop/Repos/AlbumPage/Assets/2014ForestHillsDrive.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     height: 400px;
-    width: 100%;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 
 }
+
 a:link{
 
      text-decoration: none;
@@ -36,10 +40,10 @@ a:active{
 }
 
 table{
-    background-color: tan;
-    border-collapse: collapse;
-    border: 1px solid black;
+    background-color: tan!important;
+    border-collapse: collapse!important;
+    border: 1px solid black!important;
 }
 td{
-    font-style: italic;
+    font-style: italic!important;
 }
